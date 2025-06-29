@@ -6,8 +6,21 @@ This project predicts **trip duration** for green taxi rides using machine learn
 ---
 
 ## 📁 Project Structure
+```bash
+MYTRAFFICVOLUME/
+├── data/               # Raw dataset files
+├── notebooks/          # Jupyter notebooks for EDA and experimentation
+├── src/                # Source code files
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── prediction.py
+│   └── visualization.py
+├── outputs/            # Generated reports and saved models
+├── requirements.txt    # Project dependencies
+├── README.md           # Project overview
+└── main.py             # Main executable script
 
-
+```
 ---
 
 ## 📌 Modules Overview
